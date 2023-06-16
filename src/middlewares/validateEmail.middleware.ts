@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
-import { client } from "../../database";
-import { AppError } from "../../error";
+import { client } from "../database";
+import { AppError } from "../error";
 
 const validateUserEmail = async (req: Request, res: Response, next: NextFunction): Promise<Response | void> => {
     const query = await client.query(

@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import { verify } from "jsonwebtoken";
-import { AppError } from "../../error";
+import { AppError } from "../error";
 
 
 const verifyToken = (req: Request, res: Response, next: NextFunction): void => {

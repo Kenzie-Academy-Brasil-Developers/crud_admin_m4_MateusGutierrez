@@ -1,7 +1,7 @@
 import format from "pg-format";
-import { User,UserResult,UserRead,UserCreate, Login, LoginReturn, UserReturn, CourseRead, GetCourseId, CourseResult, UserCourseStudent } from "../interfaces";
+import { User,UserResult,UserRead,UserCreate, Login, LoginReturn, UserReturn,UserCourseStudent } from "../interfaces";
 import {client} from "../database"
-import { userRead,userCreate,userReturn, courseRead, userCourseStudent } from "../schemas";
+import { userRead,userReturn} from "../schemas";
 import { sign, verify } from "jsonwebtoken";
 import { AppError } from "../error";
 import { compare, hash } from "bcryptjs";

@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import { AppError } from "../../error";
+import { AppError } from "../error";
 
 
 const verifyUserPermission = async (
