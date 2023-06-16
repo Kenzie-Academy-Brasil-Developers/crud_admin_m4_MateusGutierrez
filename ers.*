@@ -1,0 +1,8 @@
+ id |  name  |        email         |                           password                           | admin 
+----+--------+----------------------+--------------------------------------------------------------+-------
+  2 | Mateus | mateus@kenzie.com.br | $2a$10$wMdnPxq5atR7d2R509PWhuRKvawkio0MLD3F1n8QU1jo1pfHK9fKu | f
+  4 | shel   | shel@kenzie.com.br   | $2a$10$mlbaNmW/ALSVPwdpWs9lfuK02A65nAEOTeSgYGDSDz1AQ6GBP88rK | t
+  8 | luiz   | luiz@mail.com.br     | $2a$10$BGfFaymOXtA0hyQEttREv.Qlo2r1Yvh0IfKW/8OZaxtYp7rs9xMW. | t
+ 10 | luis   | luis@mail.com.br     | $2a$10$2B3XMIty1GTWCiU8WdjgVeIiACR81j/5rt47/ddghKE1w/1WWFMpS | t
+(4 rows)
+
